@@ -1,0 +1,11 @@
+﻿  parallel_for_each.cpp
+e:\heng\os\memory\mythread\mythread\mythread\parallel_for_each.cpp(33): warning C4244: “初始化”: 从“__int64”转换到“unsigned long”，可能丢失数据
+  e:\heng\os\memory\mythread\mythread\mythread\parallel_for_each.cpp(77): note: 参见对正在编译的函数 模板 实例化“void parallel_for_each<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,void(__cdecl *)(int)>(Iterator,Iterator,Func)”的引用
+          with
+          [
+              _Ty=int,
+              Iterator=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              Func=void (__cdecl *)(int)
+          ]
+e:\heng\os\memory\mythread\mythread\mythread\parallel_for_each.cpp(33): warning C4244: “初始化”: 从“__int64”转换到“const unsigned long”，可能丢失数据
+  mythread.vcxproj -> E:\Heng\OS\memory\myThread\mythread\x64\Debug\mythread.exe
